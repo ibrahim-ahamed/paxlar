@@ -1,0 +1,97 @@
+%body{
+    font-family: 'Montserrat', sans-serif;
+    color: #555555;
+    font-size: 14px;
+	font-weight: 500;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+%btn-custom{
+	font-size: 14px;
+	background: $theme-color;
+	color: $text-cr-fff;
+	text-transform: uppercase;
+	border: 1px solid transparent;
+	border-radius: 30px;
+	padding: 9px 20px !important;
+}
+%heading{
+	font-size: 24px;
+	font-weight: 700;
+	color: #2b2b2b;
+}
+%pragrap{
+	font-size: 14px;
+	line-height: 1.6;
+	font-weight: 400;
+	color: #2b2b2b;
+}
+%after{
+	content: "";
+	width: 50px;
+	height: 2px;
+	border-radius: 10px;
+	background-color: #f78f2f;
+	position: absolute;
+	bottom: 0;
+}
+%after-span{
+	display: block;
+	position: relative;
+}
+%position-after{
+	content: "";
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+%spider-span{
+	display: inline-block;
+	margin-bottom: 20px;
+	border-width: 2px;
+	border-style: solid;
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	border-style: solid;
+	border-radius: 5px;
+	@include transform(rotate(45deg));
+	position: relative;
+}
+%spider-p{
+	font-size: 18px;
+	color: rgb(37, 37, 37);
+	line-height: 1.2;
+	@media (max-width:767px){
+		font-size: 14px;
+	}
+}
+%spider-i{
+	position: absolute;
+	bottom: 50%;
+	left: 50%;
+	font-size: 20px;
+	@include transform(translate(-50%, -50%))
+}
+%spider-animation{
+	animation-name: moving;
+	animation-iteration-count: infinite;
+	animation-duration: 3s;
+	animation-direction: alternate;
+	animation-timing-function: linear;
+}
+%widget-icon{
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	border: 1px solid rgb(152, 152, 152);
+	border-radius: 50%;
+	@media (max-width:767px){
+		width: 30px;
+		height: 30px;
+		line-height: 30px;
+	}
+}

@@ -1,0 +1,18 @@
+@mixin transform($property){
+    -webkit-transform: ($property);
+    -moz-transform:($property);
+    transform: ($property);
+}
+@mixin transform-origin($property){
+    -webkit-transform-origin: ($property);
+    -moz-transform-origin:($property);
+    transform-origin: ($property);
+}
+@mixin padding($property){
+    padding: $property;
+}
+@mixin transition($property){
+    -webkit-transition:all ($property);
+    -moz-transition:all($property);
+    transition:all ($property);
+}
