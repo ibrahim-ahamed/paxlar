@@ -104,7 +104,7 @@ header ul li:last-child a, .banner .banner-content .btn-custom, .bitcoin .btn-cu
   animation-name: moving;
   animation-iteration-count: infinite;
   animation-duration: 3s;
-  animation-direction: alternate;
+  animation-direction: normal;
   animation-timing-function: linear; }
 
 .widget-footer .widget-footer-content ul li a .fa-facebook-f, .widget-footer .widget-footer-content ul li a .fa-twitter, .widget-footer .widget-footer-content ul li a .fa-google-plus-g, .widget-footer .widget-footer-content ul li a .fa-instagram {
@@ -399,6 +399,12 @@ header ul {
           -webkit-transform: translate(-50%, 40%);
           -moz-transform: translate(-50%, 40%);
           transform: translate(-50%, 40%); } }
+      @media (max-width: 480px) {
+        .bitcoin-buy .bitcoin-buy-img .bitcoin-buy-img-position {
+          right: 15%;
+          -webkit-transform: translate(-15%, 40%);
+          -moz-transform: translate(-15%, 40%);
+          transform: translate(-15%, 40%); } }
   @media (max-width: 767px) {
     .bitcoin-buy .heading {
       padding-top: 25px; } }
@@ -409,6 +415,9 @@ header ul {
     @media (max-width: 767px) {
       .bitcoin-buy .heading h3 {
         font-size: 20px; } }
+    @media (max-width: 480px) {
+      .bitcoin-buy .heading h3 {
+        font-size: 13px; } }
   .bitcoin-buy .heading span::after {
     bottom: 0px;
     -webkit-transform-origin: left;
@@ -431,8 +440,6 @@ header ul {
         padding: 33px 0 0; } }
   .bitcoin-buy .bitcoin-buy-content .bitcoin-after span {
     display: block;
-    width: 50px;
-    height: 50px;
     border-width: 2px;
     border-color: #f78f2f;
     border-style: solid;
@@ -444,6 +451,11 @@ header ul {
     -webkit-transform: rotate(45deg);
     -moz-transform: rotate(45deg);
     transform: rotate(45deg); }
+    @media (max-width: 480px) {
+      .bitcoin-buy .bitcoin-buy-content .bitcoin-after span {
+        width: 30px;
+        height: 30px;
+        line-height: 30px; } }
   .bitcoin-buy .bitcoin-buy-content h4 {
     font-size: 18px;
     font-family: "Raleway";
