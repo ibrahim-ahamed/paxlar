@@ -43,9 +43,6 @@ header{
 		}
 		li{
 			padding: 0 8px;
-			@media (max-width:1199px){
-				padding:0 0px;
-			}
 			
 			a{
 				
@@ -677,7 +674,7 @@ header{
 				@media (max-width:480px){
 					top: -100%;
 					right: 0%;
-					@include transform(translate(0%, 140%));
+					@include transform(translate(0%, 100%));
 				}
 				span{
 					@extend %spider-span;
