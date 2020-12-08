@@ -143,6 +143,9 @@ header ul {
   padding: 16px 0px; }
   header ul li {
     padding: 0 8px; }
+    @media (max-width: 1199px) {
+      header ul li {
+        padding: 0 0px; } }
     header ul li a {
       text-transform: uppercase;
       color: #161616 !important;
