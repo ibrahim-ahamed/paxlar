@@ -519,9 +519,9 @@ header{
 					@include transform(translate(4%, 60%));
 				}
 				@media (max-width:480px){
-					top: -140%;
+					top: -100%;
 					left: 0%;
-					@include transform(translate(0%, 140%));
+					@include transform(translate(0%, 100%));
 				}
 				span{
 					@extend %spider-span;
@@ -672,7 +672,7 @@ header{
 					@include transform(translate(4%, 60%));
 				}
 				@media (max-width:480px){
-					top: -140%;
+					top: -100%;
 					right: 0%;
 					@include transform(translate(0%, 140%));
 				}
