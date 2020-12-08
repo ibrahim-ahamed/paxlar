@@ -87,6 +87,9 @@ header ul li:last-child a, .banner .banner-content .btn-custom, .bitcoin .btn-cu
   @media (max-width: 767px) {
     .spider .spider-content .p-1 .spider-box p, .spider .spider-content .p-2 .spider-box p, .spider .spider-content .p-3 .spider-box p, .spider .spider-content .p-8 .spider-box p, .spider .spider-content .p-6 .spider-box p, .spider .spider-content .p-7 .spider-box p {
       font-size: 14px; } }
+  @media (max-width: 480px) {
+    .spider .spider-content .p-1 .spider-box p, .spider .spider-content .p-2 .spider-box p, .spider .spider-content .p-3 .spider-box p, .spider .spider-content .p-8 .spider-box p, .spider .spider-content .p-6 .spider-box p, .spider .spider-content .p-7 .spider-box p {
+      font-size: 12px; } }
 
 .spider .spider-content .p-1 .spider-box i, .spider .spider-content .p-2 .spider-box i, .spider .spider-content .p-3 .spider-box i, .spider .spider-content .p-8 .spider-box i, .spider .spider-content .p-6 .spider-box i, .spider .spider-content .p-7 .spider-box i {
   position: absolute;
@@ -249,6 +252,9 @@ header ul {
       @media (max-width: 575px) {
         .banner .banner-content .btn-custom {
           font-size: 10px; } }
+      @media (max-width: 480px) {
+        .banner .banner-content .btn-custom {
+          display: none; } }
       .banner .banner-content .btn-custom:hover {
         border: 1px solid #fff;
         background: transparent; }
@@ -527,6 +533,13 @@ header ul {
           -webkit-transform: translate(4%, 60%);
           -moz-transform: translate(4%, 60%);
           transform: translate(4%, 60%); } }
+      @media (max-width: 480px) {
+        .spider .spider-content .p-1 .spider-box {
+          top: -140%;
+          left: 0%;
+          -webkit-transform: translate(0%, 140%);
+          -moz-transform: translate(0%, 140%);
+          transform: translate(0%, 140%); } }
       .spider .spider-content .p-1 .spider-box span {
         color: #f05154; }
       .spider .spider-content .p-1 .spider-box i {
@@ -534,7 +547,7 @@ header ul {
     .spider .spider-content .p-2 .spider-box {
       position: absolute;
       bottom: -9%;
-      right: 11%;
+      right: 23%;
       -webkit-transform: translate(23%, 0%);
       -moz-transform: translate(23%, 0%);
       transform: translate(23%, 0%); }
@@ -544,12 +557,19 @@ header ul {
           -webkit-transform: translate(11%, -9%);
           -moz-transform: translate(11%, -9%);
           transform: translate(11%, -9%); } }
-      @media (max-width: 676px) {
+      @media (max-width: 767px) {
         .spider .spider-content .p-2 .spider-box {
           bottom: -10%;
           -webkit-transform: translate(11%, 10%);
           -moz-transform: translate(11%, 10%);
           transform: translate(11%, 10%); } }
+      @media (max-width: 480px) {
+        .spider .spider-content .p-2 .spider-box {
+          bottom: -25%;
+          right: -3%;
+          -webkit-transform: translate(3%, 25%);
+          -moz-transform: translate(3%, 25%);
+          transform: translate(3%, 25%); } }
       .spider .spider-content .p-2 .spider-box span {
         color: #f05154; }
       .spider .spider-content .p-2 .spider-box i {
@@ -590,6 +610,13 @@ header ul {
           -webkit-transform: translate(11%, 35%);
           -moz-transform: translate(11%, 35%);
           transform: translate(11%, 35%); } }
+      @media (max-width: 480px) {
+        .spider .spider-content .p-8 .spider-box {
+          bottom: -25%;
+          left: 5%;
+          -webkit-transform: translate(5%, 25%);
+          -moz-transform: translate(5%, 25%);
+          transform: translate(5%, 25%); } }
       .spider .spider-content .p-8 .spider-box span {
         color: #43c5ca; }
       .spider .spider-content .p-8 .spider-box i {
@@ -607,6 +634,12 @@ header ul {
           -webkit-transform: translate(0%, 65%);
           -moz-transform: translate(0%, 65%);
           transform: translate(0%, 65%); } }
+      @media (max-width: 480px) {
+        .spider .spider-content .p-6 .spider-box {
+          right: -3%;
+          -webkit-transform: translate(3%, 65%);
+          -moz-transform: translate(3%, 65%);
+          transform: translate(3%, 65%); } }
       .spider .spider-content .p-6 .spider-box span {
         color: #63cd68; }
       .spider .spider-content .p-6 .spider-box i {
@@ -630,6 +663,13 @@ header ul {
           -webkit-transform: translate(4%, 60%);
           -moz-transform: translate(4%, 60%);
           transform: translate(4%, 60%); } }
+      @media (max-width: 480px) {
+        .spider .spider-content .p-7 .spider-box {
+          top: -140%;
+          right: 0%;
+          -webkit-transform: translate(0%, 140%);
+          -moz-transform: translate(0%, 140%);
+          transform: translate(0%, 140%); } }
       .spider .spider-content .p-7 .spider-box span {
         color: #43c5ca; }
       .spider .spider-content .p-7 .spider-box i {
@@ -656,6 +696,9 @@ header ul {
   background: url("../img/bitcoin-contact-us.png");
   background-repeat: no-repeat;
   background-size: cover; }
+  @media (max-width: 480px) {
+    .contact .contact-us form .col-4 {
+      width: 100%; } }
   .contact .contact-us form .text h1 {
     color: #fff;
     margin-bottom: 10px; }
@@ -696,6 +739,9 @@ header ul {
     @media (max-width: 767px) {
       .contact .contact-us form .btn-custom {
         width: 18%; } }
+    @media (max-width: 480px) {
+      .contact .contact-us form .btn-custom {
+        width: 30%; } }
     .contact .contact-us form .btn-custom:hover {
       border: 1px solid #fff;
       background: transparent; }
@@ -773,6 +819,9 @@ header ul {
     text-transform: uppercase;
     line-height: 1.2;
     margin-bottom: 40px; }
+    @media (max-width: 480px) {
+      .investore .text h1 {
+        font-size: 18px; } }
   .investore .text span::after {
     left: 45%;
     bottom: 23px;

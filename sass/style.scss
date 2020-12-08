@@ -167,6 +167,9 @@ header{
 			@media (max-width:575px){
 				font-size: 10px;
 			}
+			@media (max-width:480px){
+				display: none;
+			}
 			&:hover{
 				
 				border:1px solid $text-cr-fff;
@@ -505,6 +508,11 @@ header{
 					top: -60%;
 					@include transform(translate(4%, 60%));
 				}
+				@media (max-width:480px){
+					top: -140%;
+					left: 0%;
+					@include transform(translate(0%, 140%));
+				}
 				span{
 					@extend %spider-span;
 					color: #f05154;  
@@ -523,15 +531,20 @@ header{
 			.spider-box{
 				position: absolute;
 				bottom: -9%;
-				right: 11%;
+				right: 23%;
 				@include transform(translate(23%, 0%));
 				@media (max-width:991px){
 					right: 11%;
 					@include transform(translate(11%, -9%));
 				}
-				@media (max-width:676px){
+				@media (max-width:767px){
 					bottom: -10%;
 					@include transform(translate(11%, 10%));
+				}
+				@media (max-width:480px){
+					bottom: -25%;
+					right: -3%;
+					@include transform(translate(3%, 25%));
 				}
 				span{
 					@extend %spider-span;
@@ -586,6 +599,11 @@ header{
 					left:11%;
 					@include transform(translate(11%, 35%));
 				}
+				@media (max-width:480px){
+					bottom: -25%;
+					left: 5%;
+					@include transform(translate(5%, 25%));
+				}
 				span{
 					@extend %spider-span;
 					color: #43c5ca;
@@ -609,6 +627,10 @@ header{
 				@media (max-width:991px){
 					right: 0%;
 					@include transform(translate(0%, 65%));
+				}
+				@media (max-width:480px){
+					right: -3%;
+					@include transform(translate(3%, 65%));
 				}
 				span{
 					@extend %spider-span;
@@ -638,6 +660,11 @@ header{
 				@media (max-width:767px){
 					top: -60%;
 					@include transform(translate(4%, 60%));
+				}
+				@media (max-width:480px){
+					top: -140%;
+					right: 0%;
+					@include transform(translate(0%, 140%));
 				}
 				span{
 					@extend %spider-span;
@@ -687,6 +714,11 @@ header{
 	background-size: cover;
 	.contact-us{
 		form{
+			.col-4{
+				@media (max-width:480px){
+					width: 100%;
+				}
+			}
 			.text{
 				h1{
 					@extend %heading;
@@ -738,6 +770,9 @@ header{
 				margin: 0 auto;
 				@media (max-width:767px){
 					width: 18%;
+				}
+				@media (max-width:480px){
+					width: 30%;
 				}
 				&:hover{
 					border:1px solid $text-cr-fff;
@@ -840,6 +875,9 @@ header{
 			text-transform: uppercase;
 			line-height: 1.2;
 			margin-bottom: 40px;
+			@media(max-width: 480px){
+				font-size: 18px;
+			}
 		}
 		  
 		span{
