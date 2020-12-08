@@ -43,6 +43,9 @@ header{
 		}
 		li{
 			padding: 0 8px;
+			@media (max-width:1199px){
+				padding:0 0px;
+			}
 			
 			a{
 				
